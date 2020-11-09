@@ -1,0 +1,5 @@
+/usr/local/Cellar/mongodb-community-shell/4.2.0/bin - Mongo DB cosole location
+
+mongo "mongodb+srv://cluster0.cfpk7.mongodb.net/node_module" --username Isuru - Activate shell
+
+sudo lsof -t -i tcp:3000 | xargs kill -9  : Kill process if accidently pressed Crtl + Z
